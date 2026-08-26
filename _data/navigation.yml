@@ -1,12 +1,8 @@
-# main links
+# 상단 메뉴
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "태비넷"
+    url: /tabinet/
+  - title: "슬리더링크"
+    url: /slitherlink/
+  - title: "문의"
+    url: /legal/contact/

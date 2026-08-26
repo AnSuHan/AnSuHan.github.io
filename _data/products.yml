@@ -1,0 +1,78 @@
+# 제품 메타 — 문서와 스토어 콘솔이 같은 문장을 쓰도록 하는 단일 출처.
+# 문서에서 site.data.products.<키> 로 참조한다.
+
+tabinet:
+  name: "태비넷 (Tabinet)"
+  name_en: "Tabinet"
+  kind: "chrome-extension"
+  repo: "https://github.com/AnSuHan/chrome-extension"
+  contact: "glorygem195@gmail.com"
+  effective: "2026-09-01"
+  collects: "none"
+  storage: "chrome.storage (기본 로컬, 사용자가 켜면 크롬 동기화)"
+  permissions:
+    - name: "tabs"
+      why_ko: "워크스페이스를 저장·복원하기 위해 탭의 제목과 주소를 읽습니다."
+      why_en: "Read tab titles and URLs so a workspace can be saved and reopened."
+    - name: "tabGroups"
+      why_ko: "워크스페이스를 크롬 탭 그룹으로 만들고 갱신합니다."
+      why_en: "Create and update native tab groups that represent a workspace."
+    - name: "storage"
+      why_ko: "저장한 워크스페이스와 설정을 브라우저에 보관합니다."
+      why_en: "Store saved workspaces and settings in the browser."
+    - name: "downloads"
+      why_ko: "사용자가 내보내기를 실행할 때 JSON 파일을 저장합니다."
+      why_en: "Save the JSON file when the user exports their groups."
+    - name: "sidePanel"
+      why_ko: "사이드바 화면을 표시합니다."
+      why_en: "Display the Tabinet sidebar UI."
+    - name: "host (http/https)"
+      why_ko: "워크스페이스를 열 때 저장해 둔 페이지를 미리 불러와, 탭을 클릭하는 순간 바로 보이게 합니다. 요청은 사용자의 브라우저에서 해당 사이트로 직접 나가며 개발자에게 전송되는 내용은 없습니다."
+      why_en: "When a workspace opens, load the pages the user saved so clicking a tab shows a ready page. Requests go from the user's browser to those sites only; nothing is sent to the developer."
+
+slitherlink:
+  name: "슬리더링크 (Slitherlink)"
+  name_en: "Slitherlink"
+  kind: "android (Flutter)"
+  package: "slitherlink.com.puzzle.glorygem.slitherlink_project"
+  repo: "https://github.com/AnSuHan/Slitherlink_Puzzle"
+  contact: "glorygem195@gmail.com"
+  effective: "2026-09-01"
+  accounts: true          # 이메일 로그인 → 계정 삭제 페이지 필수
+  ads: "planned"          # 도입 시 방침·데이터 보안 설문 함께 갱신
+  collects:
+    - item_ko: "이메일 주소"
+      item_en: "Email address"
+      purpose_ko: "계정 생성·로그인·비밀번호 재설정"
+      purpose_en: "Create your account, sign you in, reset your password"
+    - item_ko: "계정 식별자"
+      item_en: "Account identifier"
+      purpose_ko: "진행 상황을 계정에 연결"
+      purpose_en: "Link your saved progress to your account"
+    - item_ko: "퍼즐 진행 상황"
+      item_en: "Puzzle progress"
+      purpose_ko: "다른 기기에서도 이어서 풀 수 있도록 저장·복원"
+      purpose_en: "Restore your progress on any device you sign in to"
+    - item_ko: "앱 사용 기록"
+      item_en: "App usage data"
+      purpose_ko: "어떤 화면·기능이 쓰이는지 파악해 개선"
+      purpose_en: "Understand which screens and features are used"
+  third_party:
+    - "Firebase Authentication — 계정 인증"
+    - "Cloud Firestore — 진행 상황 저장"
+    - "Firebase Analytics — 사용 통계"
+  local_only: "설정·진행 캐시 (shared_preferences, 기기 안에만 저장)"
+  deletion: "앱 계정 화면의 [탈퇴하기] → Firestore 데이터와 계정 삭제. 앱 삭제 후에는 이메일 요청."
+
+keyflux:
+  name: "KeyFlux"
+  kind: "windows-desktop"
+  repo: "https://github.com/AnSuHan/KeyFlux"
+  contact: "glorygem195@gmail.com"
+  collects: "none"
+
+support:
+  contact: "glorygem195@gmail.com"
+  response_days: 7        # 영업일 기준
+  developer: "안수한"
+  developer_en: "An Suhan"

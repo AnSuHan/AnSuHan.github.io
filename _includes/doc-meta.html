@@ -1,0 +1,9 @@
+{%- comment -%}
+문서 상단 메타 — 시행일 / 최종 수정일 / 다른 언어 링크.
+front matter 의 effective_date · updated · alt_lang · alt_lang_label 을 읽는다.
+{%- endcomment -%}
+<p class="page__meta" style="margin-bottom:1.5em">
+  {%- if page.effective_date %}<strong>시행일</strong> {{ page.effective_date }}{% endif -%}
+  {%- if page.updated %} · <strong>최종 수정</strong> {{ page.updated }}{% endif -%}
+  {%- if page.alt_lang %} · <a href="{{ page.alt_lang | relative_url }}">{{ page.alt_lang_label | default: "다른 언어" }}</a>{% endif -%}
+</p>
