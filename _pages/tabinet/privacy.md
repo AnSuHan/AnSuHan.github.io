@@ -51,21 +51,40 @@ by the developer.
 - Your browsing history is not read; only the tabs you explicitly save are stored.
 - Your data is never sold or shared.
 
-## 5. Keeping and deleting your data
+## 5. Processors and international transfer
 
-Saved workspaces stay until you delete them in Tabinet or uninstall the extension. Uninstalling removes the
-locally stored data. If sync was enabled, the copy in your Google account is removed through Chrome's sync
-settings.
+Because no data reaches the developer, there is no processor acting on our behalf and no transfer of your
+data abroad by us. Only if you enable *Sync across devices* does Chrome store your data in your own Google
+account, which is handled between you and Google under Google's terms.
 
-## 6. Children
+## 6. Retention and deletion
+
+- Saved workspaces stay in your browser until you delete them or uninstall the extension.
+- Uninstalling removes the locally stored data.
+- If sync was enabled, the copy in your Google account is removed through Chrome's sync settings.
+- The developer keeps no copy of your data.
+
+## 7. Children
 
 Tabinet is a general-purpose tool and is not directed to children under 13.
 
-## 7. Changes
+## 8. Your rights
+
+Your data lives entirely in your browser, so you can view, change, or delete it at any time. For questions,
+use the contact below.
+
+## 9. Data protection contact
+
+An Suhan — [glorygem195@gmail.com](mailto:glorygem195@gmail.com)
+
+Users in the Republic of Korea may also contact the Privacy Infringement Report Centre
+(privacy.kisa.or.kr, 118) or the Personal Information Dispute Mediation Committee (kopico.go.kr, 1833-6972).
+
+## 10. Changes
 
 If this policy changes, the new effective date appears at the top of this page, and the previous text remains
 available in the site's public repository history.
 
-## 8. Contact
+## 11. Contact
 
 An Suhan — [glorygem195@gmail.com](mailto:glorygem195@gmail.com)
